@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace Bloomnation\PHPUnitExtensions\ArraySubset;
 
 use ArrayAccess;
-use DMS\PHPUnitExtensions\ArraySubset\Constraint\ArraySubset;
+use Bloomnation\PHPUnitExtensions\ArraySubset\Constraint\ArraySubset;
 use Exception;
 use PHPUnit\Framework\Assert as PhpUnitAssert;
 use PHPUnit\Framework\ExpectationFailedException;

@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Bloomnation\PHPUnitExtensions\ArraySubset\Tests\Unit;
 
-use DMS\PHPUnitExtensions\ArraySubset\Assert;
+use Bloomnation\PHPUnitExtensions\ArraySubset\Assert;
 use PHPUnit\Framework\Exception;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;

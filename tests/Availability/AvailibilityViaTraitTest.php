@@ -2,7 +2,7 @@
 
 namespace Bloomnation\PHPUnitExtensions\ArraySubset\Tests\Availibility;
 
-use DMS\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts;
+use Bloomnation\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts;
 use PHPUnit\Framework\TestCase;
 
 /**

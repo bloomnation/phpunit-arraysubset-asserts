@@ -33,7 +33,7 @@ You have two options to use this in your classes: either directly as a static ca
 
 namespace Your\Package\Tests;
 
-use DMS\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts;
+use Bloomnation\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts;
 use PHPUnit\Framework\TestCase;
 
 final class ExampleTest extends TestCase
@@ -62,7 +62,7 @@ final class ExampleTest extends TestCase
 
 namespace Your\Package\Tests;
 
-use DMS\PHPUnitExtensions\ArraySubset\Assert;
+use Bloomnation\PHPUnitExtensions\ArraySubset\Assert;
 use PHPUnit\Framework\TestCase;
 
 final class ExampleTest extends TestCase

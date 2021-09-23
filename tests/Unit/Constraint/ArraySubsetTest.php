@@ -5,8 +5,8 @@ namespace Bloomnation\PHPUnitExtensions\ArraySubset\Tests\Unit\Constraint;
 
 use ArrayObject;
 use Countable;
-use DMS\PHPUnitExtensions\ArraySubset\ArrayAccessible;
-use DMS\PHPUnitExtensions\ArraySubset\Constraint\ArraySubset;
+use Bloomnation\PHPUnitExtensions\ArraySubset\ArrayAccessible;
+use Bloomnation\PHPUnitExtensions\ArraySubset\Constraint\ArraySubset;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\SelfDescribing;
 use PHPUnit\Framework\TestCase;

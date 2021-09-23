@@ -2,7 +2,7 @@
 
 namespace Bloomnation\PHPUnitExtensions\ArraySubset;
 
-if (\class_exists('DMS\PHPUnitExtensions\ArraySubset\Autoload', false) === false) {
+if (\class_exists('Bloomnation\PHPUnitExtensions\ArraySubset\Autoload', false) === false) {
 
     /**
      * Custom autoloader.
@@ -21,12 +21,12 @@ if (\class_exists('DMS\PHPUnitExtensions\ArraySubset\Autoload', false) === false
         public static function load($className)
         {
             // Only load classes belonging to this library.
-            if (\stripos($className, 'DMS\PHPUnitExtensions\ArraySubset') !== 0) {
+            if (\stripos($className, 'Bloomnation\PHPUnitExtensions\ArraySubset') !== 0) {
                 return false;
             }
 
             switch ($className) {
-                case 'DMS\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts':
+                case 'Bloomnation\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts':
                     if (\method_exists('\PHPUnit\Framework\Assert', 'assertArraySubset') === false) {
                         // PHPUnit >= 9.0.0.
                         require_once __DIR__ . '/src/ArraySubsetAsserts.php';
@@ -39,7 +39,7 @@ if (\class_exists('DMS\PHPUnitExtensions\ArraySubset\Autoload', false) === false
 
                     return true;
 
-                case 'DMS\PHPUnitExtensions\ArraySubset\Assert':
+                case 'Bloomnation\PHPUnitExtensions\ArraySubset\Assert':
                     if (\method_exists('\PHPUnit\Framework\Assert', 'assertArraySubset') === false) {
                         // PHPUnit >= 9.0.0.
                         require_once __DIR__ . '/src/Assert.php';

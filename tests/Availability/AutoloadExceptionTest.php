@@ -2,7 +2,7 @@
 
 namespace Bloomnation\PHPUnitExtensions\ArraySubset\Tests\Availibility;
 
-use DMS\PHPUnitExtensions\ArraySubset\Constraint\ArraySubset;
+use Bloomnation\PHPUnitExtensions\ArraySubset\Constraint\ArraySubset;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -21,7 +21,7 @@ final class AutoloadExceptionTest extends TestCase
     public function testAutoloadException()
     {
         $expection = '\RuntimeException';
-        $message   = 'Using class "DMS\PHPUnitExtensions\ArraySubset\Constraint\ArraySubset" is only supported in combination with PHPUnit >= 9.0.0';
+        $message   = 'Using class "Bloomnation\PHPUnitExtensions\ArraySubset\Constraint\ArraySubset" is only supported in combination with PHPUnit >= 9.0.0';
 
         if (\method_exists('\PHPUnit\Framework\TestCase', 'expectException') === true) {
             $this->expectException($expection);
