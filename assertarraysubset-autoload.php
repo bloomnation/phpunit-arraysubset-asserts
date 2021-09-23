@@ -27,28 +27,12 @@ if (\class_exists('Bloomnation\PHPUnitExtensions\ArraySubset\Autoload', false) =
 
             switch ($className) {
                 case 'Bloomnation\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts':
-                    if (\method_exists('\PHPUnit\Framework\Assert', 'assertArraySubset') === false) {
-                        // PHPUnit >= 9.0.0.
-                        require_once __DIR__ . '/src/ArraySubsetAsserts.php';
-
-                        return true;
-                    }
-
-                    // PHPUnit < 9.0.0.
-                    require_once __DIR__ . '/src/ArraySubsetAssertsEmpty.php';
+                    require_once __DIR__ . '/src/ArraySubsetAsserts.php';
 
                     return true;
 
                 case 'Bloomnation\PHPUnitExtensions\ArraySubset\Assert':
-                    if (\method_exists('\PHPUnit\Framework\Assert', 'assertArraySubset') === false) {
-                        // PHPUnit >= 9.0.0.
-                        require_once __DIR__ . '/src/Assert.php';
-
-                        return true;
-                    }
-
-                    // PHPUnit < 9.0.0.
-                    require_once __DIR__ . '/src/AssertFallThrough.php';
+                    require_once __DIR__ . '/src/Assert.php';
 
                     return true;
 
@@ -57,17 +41,6 @@ if (\class_exists('Bloomnation\PHPUnitExtensions\ArraySubset\Autoload', false) =
                  * as additional classes should only ever _need_ to be loaded when using PHPUnit >= 9.0.0.
                  */
                 default:
-                    if (\method_exists('\PHPUnit\Framework\Assert', 'assertArraySubset') === true) {
-                        // PHPUnit < 9.0.0.
-                        throw new \RuntimeException(
-                            \sprintf(
-                                'Using class "%s" is only supported in combination with PHPUnit >= 9.0.0',
-                                $className
-                            )
-                        );
-                    }
-
-                    // PHPUnit >= 9.0.0.
                     $file = \realpath(
                         __DIR__ . \DIRECTORY_SEPARATOR
                         . 'src' . \DIRECTORY_SEPARATOR

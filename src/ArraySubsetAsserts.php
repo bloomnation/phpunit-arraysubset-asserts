@@ -4,9 +4,9 @@ declare(strict_types=1);
 namespace Bloomnation\PHPUnitExtensions\ArraySubset;
 
 use ArrayAccess;
-use Bloomnation\PHPUnitExtensions\ArraySubset\Constraint\ArraySubset;
 use Exception;
 use PHPUnit\Framework\Assert as PhpUnitAssert;
+use PHPUnit\Framework\Constraint\ArraySubset;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\InvalidArgumentException;
 
