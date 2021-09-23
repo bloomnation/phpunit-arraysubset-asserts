@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace DMS\PHPUnitExtensions\ArraySubset\Tests\Unit;
+namespace Bloomnation\PHPUnitExtensions\ArraySubset\Tests\Unit;
 
 use DMS\PHPUnitExtensions\ArraySubset\Assert;
 use PHPUnit\Framework\Exception;

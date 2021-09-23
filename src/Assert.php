@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace DMS\PHPUnitExtensions\ArraySubset;
+namespace Bloomnation\PHPUnitExtensions\ArraySubset;
 
 final class Assert
 {

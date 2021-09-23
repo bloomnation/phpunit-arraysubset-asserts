@@ -1,6 +1,6 @@
 <?php
 
-namespace DMS\PHPUnitExtensions\ArraySubset;
+namespace Bloomnation\PHPUnitExtensions\ArraySubset;
 
 use PHPUnit\Framework\Assert as PhpUnitAssert;
 

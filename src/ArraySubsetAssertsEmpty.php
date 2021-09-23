@@ -1,6 +1,6 @@
 <?php
 
-namespace DMS\PHPUnitExtensions\ArraySubset;
+namespace Bloomnation\PHPUnitExtensions\ArraySubset;
 
 /**
  * ArraySubsetAsserts trait for use with PHPUnit 4.x - 8.x.

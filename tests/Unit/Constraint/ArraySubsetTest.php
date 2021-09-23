@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace DMS\PHPUnitExtensions\ArraySubset\Tests\Unit\Constraint;
+namespace Bloomnation\PHPUnitExtensions\ArraySubset\Tests\Unit\Constraint;
 
 use ArrayObject;
 use Countable;

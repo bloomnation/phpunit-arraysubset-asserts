@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace DMS\PHPUnitExtensions\ArraySubset;
+namespace Bloomnation\PHPUnitExtensions\ArraySubset;
 
 use ArrayAccess;
 use DMS\PHPUnitExtensions\ArraySubset\Constraint\ArraySubset;

@@ -1,6 +1,6 @@
 <?php
 
-namespace DMS\PHPUnitExtensions\ArraySubset\Tests\Availibility;
+namespace Bloomnation\PHPUnitExtensions\ArraySubset\Tests\Availibility;
 
 use DMS\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts;
 use PHPUnit\Framework\TestCase;

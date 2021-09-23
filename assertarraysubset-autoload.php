@@ -1,6 +1,6 @@
 <?php
 
-namespace DMS\PHPUnitExtensions\ArraySubset;
+namespace Bloomnation\PHPUnitExtensions\ArraySubset;
 
 if (\class_exists('DMS\PHPUnitExtensions\ArraySubset\Autoload', false) === false) {
 
