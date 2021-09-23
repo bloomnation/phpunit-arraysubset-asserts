@@ -10,7 +10,7 @@ The initial version contained here is copied over from phpunit and is heavily ba
 Simply use it by importing it with Composer
 
 ```
-composer require --dev dms/phpunit-arraysubset-asserts
+composer require --dev bloomnation/phpunit-arraysubset-asserts
 ```
 
 > :bulb: The package can be safely required on PHP 5.4 to current in combination with PHPUnit 4.8.36/5.7.21 to current.

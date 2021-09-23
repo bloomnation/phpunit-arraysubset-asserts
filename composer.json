@@ -1,5 +1,5 @@
 {
-    "name": "dms/phpunit-arraysubset-asserts",
+    "name": "bloomnation/phpunit-arraysubset-asserts",
     "description": "This package provides ArraySubset and related asserts once deprecated in PHPUnit 8",
     "type": "library",
     "require": {
